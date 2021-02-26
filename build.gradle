@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'google-access-token-getter'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.google.api-client:google-api-client:1.31.2'
+
+
+}
